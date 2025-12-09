@@ -1,0 +1,9309 @@
+{
+  "metadata": {
+    "algorithm": "quick",
+    "input_size": 20,
+    "seed": 12345,
+    "start_time": "2025-12-09T22:00:00Z",
+    "total_time_ms": 100,
+    "total_comparisons": 190,
+    "total_swaps": 90
+  },
+  "frames": [
+    {
+      "array": [
+        10,
+        4,
+        7,
+        17,
+        11,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "none",
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {}
+    },
+    {
+      "array": [
+        10,
+        4,
+        7,
+        17,
+        11,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 1,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        10,
+        7,
+        17,
+        11,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 1,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "swap": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        10,
+        7,
+        17,
+        11,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 2,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        17,
+        11,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 2,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "swap": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        17,
+        11,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 3,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        17,
+        11,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 4,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 4,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "swap": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 5,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        20,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 6,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        20,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 6,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "swap": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        20,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 7,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        20,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 7,
+      "cumulative_swaps": 5,
+      "highlights": {
+        "swap": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        20,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 8,
+      "cumulative_swaps": 5,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        20,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 8,
+      "cumulative_swaps": 6,
+      "highlights": {
+        "swap": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        20,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 9,
+      "cumulative_swaps": 6,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        20,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 9,
+      "cumulative_swaps": 7,
+      "highlights": {
+        "swap": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        20,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 10,
+      "cumulative_swaps": 7,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        20,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 10,
+      "cumulative_swaps": 8,
+      "highlights": {
+        "swap": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        20,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 11,
+      "cumulative_swaps": 8,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        20,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 11,
+      "cumulative_swaps": 9,
+      "highlights": {
+        "swap": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        20,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 12,
+      "cumulative_swaps": 9,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        20,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 12,
+      "cumulative_swaps": 10,
+      "highlights": {
+        "swap": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        20,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 13,
+      "cumulative_swaps": 10,
+      "highlights": {
+        "compare": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        20,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 13,
+      "cumulative_swaps": 11,
+      "highlights": {
+        "swap": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        20,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 14,
+      "cumulative_swaps": 11,
+      "highlights": {
+        "compare": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        20,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 14,
+      "cumulative_swaps": 12,
+      "highlights": {
+        "swap": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        20,
+        19,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 15,
+      "cumulative_swaps": 12,
+      "highlights": {
+        "compare": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        20,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 15,
+      "cumulative_swaps": 13,
+      "highlights": {
+        "swap": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        20,
+        12,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 16,
+      "cumulative_swaps": 13,
+      "highlights": {
+        "compare": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        20,
+        9,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 16,
+      "cumulative_swaps": 14,
+      "highlights": {
+        "swap": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        20,
+        9,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 17,
+      "cumulative_swaps": 14,
+      "highlights": {
+        "compare": [
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        20,
+        1,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 17,
+      "cumulative_swaps": 15,
+      "highlights": {
+        "swap": [
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        20,
+        1,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 18,
+      "cumulative_swaps": 15,
+      "highlights": {
+        "compare": [
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        20,
+        18
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 18,
+      "cumulative_swaps": 16,
+      "highlights": {
+        "swap": [
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        20,
+        18
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 19,
+      "cumulative_swaps": 16,
+      "highlights": {
+        "compare": [
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 19,
+      "cumulative_swaps": 17,
+      "highlights": {
+        "swap": [
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 20,
+      "cumulative_swaps": 17,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 21,
+      "cumulative_swaps": 17,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 22,
+      "cumulative_swaps": 17,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 23,
+      "cumulative_swaps": 17,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        17,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 24,
+      "cumulative_swaps": 17,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        17,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 24,
+      "cumulative_swaps": 18,
+      "highlights": {
+        "swap": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        17,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 25,
+      "cumulative_swaps": 18,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        17,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 25,
+      "cumulative_swaps": 19,
+      "highlights": {
+        "swap": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        17,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 26,
+      "cumulative_swaps": 19,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        17,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 26,
+      "cumulative_swaps": 20,
+      "highlights": {
+        "swap": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        17,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 27,
+      "cumulative_swaps": 20,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        17,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 27,
+      "cumulative_swaps": 21,
+      "highlights": {
+        "swap": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        17,
+        2,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 28,
+      "cumulative_swaps": 21,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        17,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 28,
+      "cumulative_swaps": 22,
+      "highlights": {
+        "swap": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        17,
+        6,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 29,
+      "cumulative_swaps": 22,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        17,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 29,
+      "cumulative_swaps": 23,
+      "highlights": {
+        "swap": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        17,
+        13,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 30,
+      "cumulative_swaps": 23,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        17,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 30,
+      "cumulative_swaps": 24,
+      "highlights": {
+        "swap": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        17,
+        8,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 31,
+      "cumulative_swaps": 24,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        17,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 31,
+      "cumulative_swaps": 25,
+      "highlights": {
+        "swap": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        17,
+        14,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 32,
+      "cumulative_swaps": 25,
+      "highlights": {
+        "compare": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 32,
+      "cumulative_swaps": 26,
+      "highlights": {
+        "swap": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 33,
+      "cumulative_swaps": 26,
+      "highlights": {
+        "compare": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        19,
+        12,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 34,
+      "cumulative_swaps": 26,
+      "highlights": {
+        "compare": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        19,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 34,
+      "cumulative_swaps": 27,
+      "highlights": {
+        "swap": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        19,
+        9,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 35,
+      "cumulative_swaps": 27,
+      "highlights": {
+        "compare": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        19,
+        1,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 35,
+      "cumulative_swaps": 28,
+      "highlights": {
+        "swap": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        19,
+        1,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 36,
+      "cumulative_swaps": 28,
+      "highlights": {
+        "compare": [
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        19,
+        18,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 36,
+      "cumulative_swaps": 29,
+      "highlights": {
+        "swap": [
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        19,
+        18,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 37,
+      "cumulative_swaps": 29,
+      "highlights": {
+        "compare": [
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 37,
+      "cumulative_swaps": 30,
+      "highlights": {
+        "swap": [
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 38,
+      "cumulative_swaps": 30,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 39,
+      "cumulative_swaps": 30,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 40,
+      "cumulative_swaps": 30,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        11,
+        3,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 41,
+      "cumulative_swaps": 30,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 41,
+      "cumulative_swaps": 31,
+      "highlights": {
+        "swap": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 42,
+      "cumulative_swaps": 31,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        16,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 43,
+      "cumulative_swaps": 31,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        16,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 43,
+      "cumulative_swaps": 32,
+      "highlights": {
+        "swap": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        16,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 44,
+      "cumulative_swaps": 32,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        16,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 44,
+      "cumulative_swaps": 33,
+      "highlights": {
+        "swap": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        16,
+        2,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 45,
+      "cumulative_swaps": 33,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        16,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 45,
+      "cumulative_swaps": 34,
+      "highlights": {
+        "swap": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        16,
+        6,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 46,
+      "cumulative_swaps": 34,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        16,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 46,
+      "cumulative_swaps": 35,
+      "highlights": {
+        "swap": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        16,
+        13,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 47,
+      "cumulative_swaps": 35,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        16,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 47,
+      "cumulative_swaps": 36,
+      "highlights": {
+        "swap": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        16,
+        8,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 48,
+      "cumulative_swaps": 36,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        16,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 48,
+      "cumulative_swaps": 37,
+      "highlights": {
+        "swap": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        16,
+        14,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 49,
+      "cumulative_swaps": 37,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 49,
+      "cumulative_swaps": 38,
+      "highlights": {
+        "swap": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 50,
+      "cumulative_swaps": 38,
+      "highlights": {
+        "compare": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        17,
+        12,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 51,
+      "cumulative_swaps": 38,
+      "highlights": {
+        "compare": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        17,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 51,
+      "cumulative_swaps": 39,
+      "highlights": {
+        "swap": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        17,
+        9,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 52,
+      "cumulative_swaps": 39,
+      "highlights": {
+        "compare": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        17,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 52,
+      "cumulative_swaps": 40,
+      "highlights": {
+        "swap": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        17,
+        1,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 53,
+      "cumulative_swaps": 40,
+      "highlights": {
+        "compare": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 53,
+      "cumulative_swaps": 41,
+      "highlights": {
+        "swap": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 54,
+      "cumulative_swaps": 41,
+      "highlights": {
+        "compare": [
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 55,
+      "cumulative_swaps": 41,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 56,
+      "cumulative_swaps": 41,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        10,
+        3,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 57,
+      "cumulative_swaps": 41,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 57,
+      "cumulative_swaps": 42,
+      "highlights": {
+        "swap": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 58,
+      "cumulative_swaps": 42,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        11,
+        5,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 59,
+      "cumulative_swaps": 42,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 59,
+      "cumulative_swaps": 43,
+      "highlights": {
+        "swap": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 60,
+      "cumulative_swaps": 43,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        15,
+        2,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 61,
+      "cumulative_swaps": 43,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        15,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 61,
+      "cumulative_swaps": 44,
+      "highlights": {
+        "swap": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        15,
+        6,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 62,
+      "cumulative_swaps": 44,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        15,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 62,
+      "cumulative_swaps": 45,
+      "highlights": {
+        "swap": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        15,
+        13,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 63,
+      "cumulative_swaps": 45,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        15,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 63,
+      "cumulative_swaps": 46,
+      "highlights": {
+        "swap": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        15,
+        8,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 64,
+      "cumulative_swaps": 46,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        15,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 64,
+      "cumulative_swaps": 47,
+      "highlights": {
+        "swap": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        15,
+        14,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 65,
+      "cumulative_swaps": 47,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 65,
+      "cumulative_swaps": 48,
+      "highlights": {
+        "swap": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 66,
+      "cumulative_swaps": 48,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        16,
+        12,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 67,
+      "cumulative_swaps": 48,
+      "highlights": {
+        "compare": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        16,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 67,
+      "cumulative_swaps": 49,
+      "highlights": {
+        "swap": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        16,
+        9,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 68,
+      "cumulative_swaps": 49,
+      "highlights": {
+        "compare": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        16,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 68,
+      "cumulative_swaps": 50,
+      "highlights": {
+        "swap": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        16,
+        1,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 69,
+      "cumulative_swaps": 50,
+      "highlights": {
+        "compare": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 69,
+      "cumulative_swaps": 51,
+      "highlights": {
+        "swap": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 70,
+      "cumulative_swaps": 51,
+      "highlights": {
+        "compare": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 71,
+      "cumulative_swaps": 51,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        7,
+        3,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 72,
+      "cumulative_swaps": 51,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 72,
+      "cumulative_swaps": 52,
+      "highlights": {
+        "swap": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 73,
+      "cumulative_swaps": 52,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        10,
+        5,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 74,
+      "cumulative_swaps": 52,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 74,
+      "cumulative_swaps": 53,
+      "highlights": {
+        "swap": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 75,
+      "cumulative_swaps": 53,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        11,
+        2,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 76,
+      "cumulative_swaps": 53,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        11,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 76,
+      "cumulative_swaps": 54,
+      "highlights": {
+        "swap": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        11,
+        6,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 77,
+      "cumulative_swaps": 54,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 77,
+      "cumulative_swaps": 55,
+      "highlights": {
+        "swap": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 78,
+      "cumulative_swaps": 55,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        13,
+        8,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 79,
+      "cumulative_swaps": 55,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 79,
+      "cumulative_swaps": 56,
+      "highlights": {
+        "swap": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 80,
+      "cumulative_swaps": 56,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 81,
+      "cumulative_swaps": 56,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        15,
+        12,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 82,
+      "cumulative_swaps": 56,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        15,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 82,
+      "cumulative_swaps": 57,
+      "highlights": {
+        "swap": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        15,
+        9,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 83,
+      "cumulative_swaps": 57,
+      "highlights": {
+        "compare": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        15,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 83,
+      "cumulative_swaps": 58,
+      "highlights": {
+        "swap": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        15,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 84,
+      "cumulative_swaps": 58,
+      "highlights": {
+        "compare": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 84,
+      "cumulative_swaps": 59,
+      "highlights": {
+        "swap": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 85,
+      "cumulative_swaps": 59,
+      "highlights": {
+        "compare": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "array": [
+        4,
+        3,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 86,
+      "cumulative_swaps": 59,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 86,
+      "cumulative_swaps": 60,
+      "highlights": {
+        "swap": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 87,
+      "cumulative_swaps": 60,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        7,
+        5,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 88,
+      "cumulative_swaps": 60,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 88,
+      "cumulative_swaps": 61,
+      "highlights": {
+        "swap": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 89,
+      "cumulative_swaps": 61,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        10,
+        2,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 90,
+      "cumulative_swaps": 61,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        10,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 90,
+      "cumulative_swaps": 62,
+      "highlights": {
+        "swap": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        10,
+        6,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 91,
+      "cumulative_swaps": 62,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 91,
+      "cumulative_swaps": 63,
+      "highlights": {
+        "swap": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 92,
+      "cumulative_swaps": 63,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        11,
+        8,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 93,
+      "cumulative_swaps": 63,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 93,
+      "cumulative_swaps": 64,
+      "highlights": {
+        "swap": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 94,
+      "cumulative_swaps": 64,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 95,
+      "cumulative_swaps": 64,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        14,
+        12,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 96,
+      "cumulative_swaps": 64,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        14,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 96,
+      "cumulative_swaps": 65,
+      "highlights": {
+        "swap": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        14,
+        9,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 97,
+      "cumulative_swaps": 65,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        14,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 97,
+      "cumulative_swaps": 66,
+      "highlights": {
+        "swap": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        14,
+        1,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 98,
+      "cumulative_swaps": 66,
+      "highlights": {
+        "compare": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 98,
+      "cumulative_swaps": 67,
+      "highlights": {
+        "swap": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 99,
+      "cumulative_swaps": 67,
+      "highlights": {
+        "compare": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 100,
+      "cumulative_swaps": 67,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 101,
+      "cumulative_swaps": 67,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 102,
+      "cumulative_swaps": 67,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        7,
+        2,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 103,
+      "cumulative_swaps": 67,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 103,
+      "cumulative_swaps": 68,
+      "highlights": {
+        "swap": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 104,
+      "cumulative_swaps": 68,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 104,
+      "cumulative_swaps": 69,
+      "highlights": {
+        "swap": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 105,
+      "cumulative_swaps": 69,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        10,
+        8,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 106,
+      "cumulative_swaps": 69,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 106,
+      "cumulative_swaps": 70,
+      "highlights": {
+        "swap": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 107,
+      "cumulative_swaps": 70,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 108,
+      "cumulative_swaps": 70,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        12,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 109,
+      "cumulative_swaps": 70,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 109,
+      "cumulative_swaps": 71,
+      "highlights": {
+        "swap": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        9,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 110,
+      "cumulative_swaps": 71,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        13,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 110,
+      "cumulative_swaps": 72,
+      "highlights": {
+        "swap": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        13,
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 111,
+      "cumulative_swaps": 72,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 111,
+      "cumulative_swaps": 73,
+      "highlights": {
+        "swap": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 112,
+      "cumulative_swaps": 73,
+      "highlights": {
+        "compare": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 113,
+      "cumulative_swaps": 73,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 114,
+      "cumulative_swaps": 73,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 115,
+      "cumulative_swaps": 73,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 115,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "swap": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 116,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 117,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 118,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 119,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 120,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 121,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        9,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 122,
+      "cumulative_swaps": 74,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        12,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 122,
+      "cumulative_swaps": 75,
+      "highlights": {
+        "swap": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        12,
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 123,
+      "cumulative_swaps": 75,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 123,
+      "cumulative_swaps": 76,
+      "highlights": {
+        "swap": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 124,
+      "cumulative_swaps": 76,
+      "highlights": {
+        "compare": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 125,
+      "cumulative_swaps": 76,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 126,
+      "cumulative_swaps": 76,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 126,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "swap": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 127,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 128,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 129,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 130,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 131,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 132,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 133,
+      "cumulative_swaps": 77,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        11,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 133,
+      "cumulative_swaps": 78,
+      "highlights": {
+        "swap": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        11,
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 134,
+      "cumulative_swaps": 78,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 134,
+      "cumulative_swaps": 79,
+      "highlights": {
+        "swap": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 135,
+      "cumulative_swaps": 79,
+      "highlights": {
+        "compare": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "array": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 136,
+      "cumulative_swaps": 79,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 136,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "swap": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 137,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 138,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 139,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 140,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 141,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 142,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 143,
+      "cumulative_swaps": 80,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 143,
+      "cumulative_swaps": 81,
+      "highlights": {
+        "swap": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        1,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 144,
+      "cumulative_swaps": 81,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 144,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "swap": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 145,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 146,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 147,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 148,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 149,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 150,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 151,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 152,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 153,
+      "cumulative_swaps": 82,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 153,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "swap": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 154,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 155,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 156,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 157,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 158,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 159,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 160,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 161,
+      "cumulative_swaps": 83,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 161,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "swap": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 162,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 163,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 164,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 165,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 166,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 167,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 168,
+      "cumulative_swaps": 84,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 168,
+      "cumulative_swaps": 85,
+      "highlights": {
+        "swap": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 169,
+      "cumulative_swaps": 85,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 170,
+      "cumulative_swaps": 85,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 171,
+      "cumulative_swaps": 85,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 172,
+      "cumulative_swaps": 85,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 173,
+      "cumulative_swaps": 85,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 174,
+      "cumulative_swaps": 85,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 174,
+      "cumulative_swaps": 86,
+      "highlights": {
+        "swap": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 175,
+      "cumulative_swaps": 86,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 176,
+      "cumulative_swaps": 86,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 177,
+      "cumulative_swaps": 86,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 178,
+      "cumulative_swaps": 86,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 179,
+      "cumulative_swaps": 86,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 179,
+      "cumulative_swaps": 87,
+      "highlights": {
+        "swap": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 180,
+      "cumulative_swaps": 87,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 181,
+      "cumulative_swaps": 87,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 182,
+      "cumulative_swaps": 87,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 183,
+      "cumulative_swaps": 87,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 183,
+      "cumulative_swaps": 88,
+      "highlights": {
+        "swap": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 184,
+      "cumulative_swaps": 88,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 185,
+      "cumulative_swaps": 88,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 186,
+      "cumulative_swaps": 88,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 186,
+      "cumulative_swaps": 89,
+      "highlights": {
+        "swap": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 187,
+      "cumulative_swaps": 89,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "array": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 188,
+      "cumulative_swaps": 89,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "swap",
+      "cumulative_comparisons": 188,
+      "cumulative_swaps": 90,
+      "highlights": {
+        "swap": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 189,
+      "cumulative_swaps": 90,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "compare",
+      "cumulative_comparisons": 190,
+      "cumulative_swaps": 90,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "operation": "none",
+      "cumulative_comparisons": 190,
+      "cumulative_swaps": 90,
+      "highlights": {}
+    }
+  ]
+}

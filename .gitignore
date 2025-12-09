@@ -1,0 +1,28 @@
+# C++ Build
+build/
+bin/
+obj/
+out/
+*.o
+*.d
+*.exe
+*.dll
+*.so
+*.a
+*.test
+
+# Node.js
+node_modules/
+dist/
+coverage/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+log.json
+*.log

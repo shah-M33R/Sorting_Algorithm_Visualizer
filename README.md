@@ -12,7 +12,7 @@ A powerful hybrid tool designed to bridge the gap between abstract code and conc
 
 **🚀 Ready to start?**
 
-For complete installation instructions, VS Code setup, and a step-by-step walkthrough, please consult the **[User Guide](deliverables/UserGuide.md)**.
+For complete installation instructions, VS Code setup, and a step-by-step walkthrough, please consult the **[User Manual](deliverables/UserManual.md)**.
 
 ---
 

@@ -19,4 +19,6 @@ public:
     static void mergeSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
     static void quickSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
     static void heapSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
+    static void radixSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
+    static void bucketSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
 };

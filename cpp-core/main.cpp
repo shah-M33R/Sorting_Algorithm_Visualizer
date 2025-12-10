@@ -17,7 +17,8 @@ void printUsage() {
               << "  --seed <n>        Random seed (default: random)\n"
               << "  --from-file <f>   Load initial array from JSON file\n"
               << "  --save-dataset    Save the initial array to a file (use with --output)\n"
-              << "  --benchmark       Run benchmark mode\n";
+              << "  --benchmark       Run benchmark mode\n"
+              << "Supported algorithms: bubble, selection, insertion, merge, quick, heap, radix, bucket\n";
 }
 
 int main(int argc, char* argv[]) {

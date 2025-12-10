@@ -10,6 +10,10 @@ interface VisualizerCanvasProps {
 const VisualizerCanvas: React.FC<VisualizerCanvasProps> = ({ frame, width, height }) => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
+    const n = frame.array.length;
+    const MIN_BAR_WIDTH = 6;
+    const actualWidth = Math.max(width, n * MIN_BAR_WIDTH);
+
     useEffect(() => {
         const canvas = canvasRef.current;
         if (!canvas) return;
@@ -17,11 +21,10 @@ const VisualizerCanvas: React.FC<VisualizerCanvasProps> = ({ frame, width, heigh
         if (!ctx) return;
 
         // Clear canvas
-        ctx.clearRect(0, 0, width, height);
+        ctx.clearRect(0, 0, actualWidth, height);
 
         const array = frame.array;
-        const n = array.length;
-        const barWidth = width / n;
+        const barWidth = actualWidth / n;
         const maxVal = Math.max(...array, 10); // Avoid div by zero
         
         array.forEach((val, i) => {
@@ -49,13 +52,23 @@ const VisualizerCanvas: React.FC<VisualizerCanvasProps> = ({ frame, width, heigh
             
             // Rounded top bars
             ctx.beginPath();
-            ctx.roundRect(x + 1, y, barWidth - 2, barHeight, [4, 4, 0, 0]);
+            ctx.roundRect(x + 1, y, Math.max(1, barWidth - 2), barHeight, [4, 4, 0, 0]);
             ctx.fill();
         });
 
-    }, [frame, width, height]);
+    }, [frame, width, height, actualWidth, n]); // Dependencies updated
 
-    return <canvas ref={canvasRef} width={width} height={height} className="rounded-lg shadow-inner bg-slate-50" />;
+    return (
+        <div style={{ overflowX: 'auto', width: width }}>
+            <canvas 
+                ref={canvasRef} 
+                width={actualWidth} 
+                height={height} 
+                className="rounded-lg shadow-inner bg-slate-50" 
+                style={{ display: 'block' }} 
+            />
+        </div>
+    );
 };
 
 export default VisualizerCanvas;

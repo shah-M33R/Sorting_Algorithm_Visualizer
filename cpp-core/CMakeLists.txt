@@ -30,6 +30,4 @@ add_executable(sortgen ${SOURCES})
 # Link libraries
 target_link_libraries(sortgen PRIVATE nlohmann_json::nlohmann_json)
 
-# Enable testing
-enable_testing()
-# add_subdirectory(tests) # Uncomment when tests are added
+

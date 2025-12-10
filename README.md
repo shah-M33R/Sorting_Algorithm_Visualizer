@@ -1,47 +1,54 @@
-# Interactive Sorting Algorithm Visualizer
+# 📊 Interactive Sorting Algorithm Visualizer
 
-A web-based tool to visualize sorting algorithms step-by-step, powered by a C++ backend.
+![C++](https://img.shields.io/badge/Backend-C%2B%2B17-blue)
+![React](https://img.shields.io/badge/Frontend-React%20%7C%20TypeScript-61dafb)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Quick Start
+A powerful hybrid tool designed to bridge the gap between abstract code and concrete understanding. This project uses a high-performance **C++ engine** to generate deterministic sorting logs and a **modern React frontend** to render frame-by-frame visualizations of complex algorithms.
 
-### 1. Frontend (The Visualizer)
-This runs the web interface where you can watch the sorting animations.
+---
 
-1.  Open a terminal in the `frontend` directory:
-    ```powershell
-    cd frontend
-    ```
-2.  Install dependencies (first time only):
-    ```powershell
-    npm install
-    ```
-3.  Start the server:
-    ```powershell
-    npm run dev
-    ```
-4.  Open the local link shown in the terminal (usually `http://localhost:5173`).
-    *   *Note: If you see "Loading...", ensure valid JSON logs exist in `frontend/public/sample_logs/`.*
+## 📖 Documentation & Setup
 
-### 2. Backend (Log Generator) - Optional
-Running the backend is only necessary if you want to generate **new** visualization logs with different parameters (size, algorithm, etc.). The frontend comes with sample logs by default.
+**🚀 Ready to start?**
 
-1.  Open a terminal in the `cpp-core` directory:
-    ```powershell
-    cd cpp-core
-    ```
-2.  Create a build folder and compile:
-    ```powershell
-    mkdir build
-    cd build
-    cmake ..
-    cmake --build . --config Release
-    ```
-3.  Generate a log file:
-    ```powershell
-    ./sortgen --algorithm quick --size 50 --output ../../frontend/public/sample_logs/quick_50.json
-    ```
-    *   *Then restart the frontend or reload the page to see the new log (if you modify the code to load it).*
+For complete installation instructions, VS Code setup, and a step-by-step walkthrough, please consult the **[User Guide](deliverables/UserGuide.md)**.
 
-## Documentation
-*   **User Guide**: [deliverables/UserManual.md](deliverables/UserManual.md) - How to use the tool.
-*   **Technical Details**: [deliverables/TechnicalDocs.md](deliverables/TechnicalDocs.md) - Codebase structure and developer guide.
+---
+
+## ✨ Key Features
+
+*   **Hybrid Architecture:** Decoupled design (C++ Producer → JSON → React Consumer) ensures 100% algorithmic accuracy with high-performance rendering.
+*   **Real-Time Metrics:** Track exact Comparison and Swap counts dynamically as the animation plays.
+*   **Full Playback Control:** Play, Pause, Reset, scrub through the timeline, and adjust speed from **0.25x** (Slow Motion) to **4x** (Turbo).
+*   **Delta Compression:** Optimized backend records only state changes, allowing for the visualization of massive datasets without memory bloat.
+*   **Custom Datasets:** Generate random arrays via CLI or load specific test cases from files.
+
+## 🛠️ Supported Algorithms
+
+We support visualization for **9 distinct algorithms**, covering various time complexities and strategies:
+
+| Comparison-Based | Non-Comparison Based |
+| :--- | :--- |
+| 🫧 Bubble Sort | 📦 Bucket Sort |
+| 🔍 Selection Sort | 🔢 Radix Sort (LSD) |
+| 📥 Insertion Sort | |
+| 🐚 Shell Sort | |
+| ⚡ Quick Sort (Lomuto) | |
+| 🤝 Merge Sort | |
+| 🌲 Heap Sort | |
+
+## 📂 Project Structure
+
+*   `cpp-core/` — **The Engine.** Contains C++17 source code, algorithm implementations, and the `StepRecorder` logic.
+*   `frontend/` — **The View.** A Vite + React application using HTML5 Canvas for scalable rendering.
+*   `deliverables/` — **The Docs.** Contains the Project Report, User Guide, and presentation slides.
+
+---
+
+## 🚀 Workflow Overview
+
+1.  **Generate:** Use the C++ CLI tool (`sortgen`) to execute an algorithm and record its history to a JSON file.
+2.  **Visualize:** Open the Web Interface, load the JSON file, and watch the algorithm in action.
+
+> *Created for the Data Structures & Algorithms Course, Fall 2025, University Of Sargodha.*

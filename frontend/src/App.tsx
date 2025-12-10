@@ -1,74 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import VisualizerCanvas from './components/VisualizerCanvas';
 import ControlPanel from './components/ControlPanel';
-import { Log, Frame } from './types';
+import { Log } from './types';
 import { StepParser } from './utils/StepParser';
 
-// --- Simple Client-Side Generator helper for "Quick Test" ---
-function generateRandomBubbleSort(size: number): Log {
-  const arr = Array.from({ length: size }, () => Math.floor(Math.random() * 100) + 1);
-  const frames: Frame[] = [];
-  
-  // Initial frame
-  frames.push({
-    array: [...arr],
-    highlights: { compare: [], swap: [], pivot: -1 },
-    cumulative_comparisons: 0,
-    cumulative_swaps: 0,
-    operation: 'none'
-  });
 
-  let comparisons = 0;
-  let swaps = 0;
-  const tempArr = [...arr];
-
-  for (let i = 0; i < size; i++) {
-    for (let j = 0; j < size - i - 1; j++) {
-      comparisons++;
-      frames.push({
-        array: [...tempArr],
-        highlights: { compare: [j, j + 1], swap: [], pivot: -1 },
-        cumulative_comparisons: comparisons,
-        cumulative_swaps: swaps,
-        operation: 'compare'
-      });
-
-      if (tempArr[j] > tempArr[j + 1]) {
-        swaps++;
-        const t = tempArr[j];
-        tempArr[j] = tempArr[j+1];
-        tempArr[j+1] = t;
-        
-        frames.push({
-          array: [...tempArr],
-          highlights: { compare: [], swap: [j, j + 1], pivot: -1 },
-          cumulative_comparisons: comparisons,
-          cumulative_swaps: swaps,
-          operation: 'swap'
-        });
-      }
-    }
-  }
-
-  // Final sorted frame
-  frames.push({
-    array: [...tempArr],
-    highlights: { compare: [], swap: [], pivot: -1 },
-    cumulative_comparisons: comparisons,
-    cumulative_swaps: swaps,
-    operation: 'none'
-  });
-
-  return {
-    metadata: {
-      algorithm: 'Bubble Sort (Client-Side)',
-      input_size: size,
-      initial_config: 'Random',
-      time_complexity: 'O(n^2)'
-    },
-    frames
-  };
-}
 
 const App: React.FC = () => {
     const [log, setLog] = useState<Log | null>(null);
@@ -144,14 +80,7 @@ const App: React.FC = () => {
         reader.readAsText(file);
     };
 
-    // Handle Client-Side Generation
-    const handleQuickGenerate = () => {
-        const newLog = generateRandomBubbleSort(15);
-        setLog(newLog);
-        setCurrentFrameIndex(0);
-        setIsPlaying(false);
-        setShowGenModal(false);
-    };
+
 
     const currentFrame = log ? log.frames[currentFrameIndex] : null;
 

@@ -23,7 +23,9 @@ void StepRecorder::flushToFile(const std::string& path, const Metadata& m) {
         {"start_time", m.start_time},
         {"total_time_ms", m.total_time_ms},
         {"total_comparisons", m.total_comparisons},
-        {"total_swaps", m.total_swaps}
+        {"total_swaps", m.total_swaps},
+        {"time_complexity", m.time_complexity},
+        {"space_complexity", m.space_complexity}
     };
 
     // Frames

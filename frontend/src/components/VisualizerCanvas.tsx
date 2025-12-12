@@ -35,13 +35,13 @@ const VisualizerCanvas: React.FC<VisualizerCanvasProps> = ({ frame, width, heigh
             // Determine color
             let color = '#64748b'; // Default slate-500
             
-            if (frame.highlights.compare && frame.highlights.compare.includes(i)) {
+            if (frame.highlights?.compare?.includes(i)) {
                 color = '#f59e0b'; // Amber (Compare)
             }
-            if (frame.highlights.swap && frame.highlights.swap.includes(i)) {
+            if (frame.highlights?.swap?.includes(i)) {
                 color = '#ef4444'; // Red (Swap)
             }
-            if (frame.highlights.pivot === i) {
+            if (frame.highlights?.pivot === i) {
                 color = '#8b5cf6'; // Violet (Pivot)
             }
             if (frame.sorted_indices && frame.sorted_indices.includes(i)) {

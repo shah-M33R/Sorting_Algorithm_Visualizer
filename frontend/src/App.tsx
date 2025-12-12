@@ -108,13 +108,16 @@ const App: React.FC = () => {
                                 </code>
                                 <div className="text-sm text-slate-700">
                                     <p className="font-semibold mb-1">Available Types:</p>
-                                    <ul className="list-disc pl-5 space-y-1 text-xs text-slate-600">
+                                    <ul>
                                         <li>bubble</li>
                                         <li>selection</li>
                                         <li>insertion</li>
                                         <li>merge</li>
                                         <li>quick</li>
                                         <li>heap</li>
+                                        <li>shell</li>
+                                        <li>radix</li>
+                                        <li>bucket</li>
                                     </ul>
                                 </div>
                                 <p className="text-xs text-slate-500 mt-4">After generating, click "Load JSON" to view your new dataset.</p>
@@ -158,7 +161,7 @@ const App: React.FC = () => {
                             {currentFrame ? (
                                 <VisualizerCanvas 
                                     frame={currentFrame} 
-                                    width={600} 
+                                    width={580} 
                                     height={300} 
                                 />
                             ) : (

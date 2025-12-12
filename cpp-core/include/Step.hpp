@@ -22,6 +22,8 @@ struct Metadata {
     long long total_time_ms;
     size_t total_comparisons;
     size_t total_swaps;
+    std::string time_complexity;
+    std::string space_complexity;
 };
 
 struct Metrics {

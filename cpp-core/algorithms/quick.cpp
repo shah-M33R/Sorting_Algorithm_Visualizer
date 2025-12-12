@@ -1,34 +1,40 @@
 #include "../include/SortEngine.hpp"
 
+// Partition function using Lomuto partition scheme
 int partition(std::vector<int>& arr, int low, int high, StepRecorder& rec, Metrics& metrics) {
-    int pivot = arr[high];
-    int i = (low - 1);
+    int pivotValue = arr[high]; // Pivot is the last element
+    int partitionIndex = (low - 1); // Index of smaller element
 
-    // Highlight pivot
+    // Highlight pivot selection
     rec.record({arr, {high}, {}, "pivot", metrics.comparisons, metrics.swaps, high});
 
     for (int j = low; j <= high - 1; j++) {
         metrics.comparisons++;
         rec.record({arr, {j, high}, {}, "compare", metrics.comparisons, metrics.swaps, high});
 
-        if (arr[j] < pivot) {
-            i++;
-            std::swap(arr[i], arr[j]);
+        if (arr[j] < pivotValue) {
+            partitionIndex++; // Increment index of smaller element
+            std::swap(arr[partitionIndex], arr[j]);
             metrics.swaps++;
-            rec.record({arr, {i, j}, {i, j}, "swap", metrics.comparisons, metrics.swaps, high});
+            rec.record({arr, {partitionIndex, j}, {partitionIndex, j}, "swap", metrics.comparisons, metrics.swaps, high});
         }
     }
-    std::swap(arr[i + 1], arr[high]);
+    // Place pivot in correct position
+    std::swap(arr[partitionIndex + 1], arr[high]);
     metrics.swaps++;
-    rec.record({arr, {i + 1, high}, {i + 1, high}, "swap", metrics.comparisons, metrics.swaps, high});
-    return (i + 1);
+    rec.record({arr, {partitionIndex + 1, high}, {partitionIndex + 1, high}, "swap", metrics.comparisons, metrics.swaps, high});
+    
+    return (partitionIndex + 1);
 }
 
 void quickSortRecursive(std::vector<int>& arr, int low, int high, StepRecorder& rec, Metrics& metrics) {
     if (low < high) {
-        int pi = partition(arr, low, high, rec, metrics);
-        quickSortRecursive(arr, low, pi - 1, rec, metrics);
-        quickSortRecursive(arr, pi + 1, high, rec, metrics);
+        // partitionIndex is partitioning index, arr[p] is now at right place
+        int pivotIndex = partition(arr, low, high, rec, metrics);
+
+        // Separately sort elements before partition and after partition
+        quickSortRecursive(arr, low, pivotIndex - 1, rec, metrics);
+        quickSortRecursive(arr, pivotIndex + 1, high, rec, metrics);
     }
 }
 

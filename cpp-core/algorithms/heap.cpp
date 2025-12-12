@@ -2,21 +2,21 @@
 
 void heapify(std::vector<int>& arr, int n, int i, StepRecorder& rec, Metrics& metrics) {
     int largest = i;
-    int l = 2 * i + 1;
-    int r = 2 * i + 2;
+    int left = 2 * i + 1;
+    int right = 2 * i + 2;
 
-    if (l < n) {
+    if (left < n) {
         metrics.comparisons++;
-        rec.record({arr, {l, largest}, {}, "compare", metrics.comparisons, metrics.swaps});
-        if (arr[l] > arr[largest])
-            largest = l;
+        rec.record({arr, {left, largest}, {}, "compare", metrics.comparisons, metrics.swaps});
+        if (arr[left] > arr[largest])
+            largest = left;
     }
 
-    if (r < n) {
+    if (right < n) {
         metrics.comparisons++;
-        rec.record({arr, {r, largest}, {}, "compare", metrics.comparisons, metrics.swaps});
-        if (arr[r] > arr[largest])
-            largest = r;
+        rec.record({arr, {right, largest}, {}, "compare", metrics.comparisons, metrics.swaps});
+        if (arr[right] > arr[largest])
+            largest = right;
     }
 
     if (largest != i) {

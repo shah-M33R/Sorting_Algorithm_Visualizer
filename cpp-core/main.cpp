@@ -100,6 +100,26 @@ int main(int argc, char* argv[]) {
     meta.total_comparisons = metrics.comparisons;
     meta.total_swaps = metrics.swaps;
 
+    // Set Complexity Metadata
+    if (algorithm == "bubble" || algorithm == "insertion" || algorithm == "selection") {
+        meta.time_complexity = "O(N^2)";
+        meta.space_complexity = "O(1)";
+    } else if (algorithm == "quick" || algorithm == "merge" || algorithm == "heap" || algorithm == "shell") {
+        meta.time_complexity = "O(N log N)"; // Average for quick/shell
+        meta.space_complexity = (algorithm == "merge") ? "O(N)" : "O(log N)";
+    } else if (algorithm == "radix" || algorithm == "bucket") {
+        meta.time_complexity = "O(NK)";
+        meta.space_complexity = "O(N+K)";
+    } else {
+        meta.time_complexity = "Unknown";
+        meta.space_complexity = "Unknown";
+    }
+
+    // Default output path if filename only
+    if (outputFile.find('/') == std::string::npos && outputFile.find('\\') == std::string::npos) {
+        outputFile = "../../frontend/public/sample_logs/" + outputFile;
+    }
+
     recorder.flushToFile(outputFile, meta);
 
     std::cout << "Generated log: " << outputFile << std::endl;

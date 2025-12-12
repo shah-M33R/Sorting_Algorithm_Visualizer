@@ -19,6 +19,8 @@ void SortEngine::runAlgorithmByName(const std::string& name, std::vector<int>& a
         radixSort(arr, rec, metrics);
     } else if (name == "bucket") {
         bucketSort(arr, rec, metrics);
+    } else if (name == "shell") {
+        shellSort(arr, rec, metrics);
     } else {
         throw std::runtime_error("Unknown algorithm: " + name);
     }

@@ -21,4 +21,5 @@ public:
     static void heapSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
     static void radixSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
     static void bucketSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
+    static void shellSort(std::vector<int>& arr, StepRecorder& rec, Metrics& metrics);
 };

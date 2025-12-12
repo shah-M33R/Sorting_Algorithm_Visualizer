@@ -29,7 +29,9 @@ void SortEngine::bucketSort(std::vector<int>& arr, StepRecorder& rec, Metrics& m
     // 3. Sort individual buckets and gather
     int idx = 0;
     for (int i = 0; i < bucket_count; i++) {
-        // Sort individual bucket (using standard sort for simplicity within bucket)
+        // Sort individual bucket
+        // For a demonstration, we use std::sort (IntroSort). 
+        // In a strict Bucket Sort, you might recursively use Bucket Sort or Insertion Sort.
         std::sort(buckets[i].begin(), buckets[i].end());
         
         // Gather back to array

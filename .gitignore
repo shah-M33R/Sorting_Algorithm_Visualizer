@@ -26,5 +26,5 @@ coverage/
 # Data
 log.json
 *.log
-/frontend/public/sample_logs/*
+frontend/public/sample_logs/*
 !frontend/public/sample_logs/.gitkeep

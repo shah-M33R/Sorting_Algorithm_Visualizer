@@ -1,6 +1,7 @@
 #include "../include/StepRecorder.hpp"
 #include <fstream>
 #include <iostream>
+#include <filesystem>
 
 using json = nlohmann::json;
 
@@ -50,6 +51,11 @@ void StepRecorder::flushToFile(const std::string& path, const Metadata& m) {
         }
 
         j["frames"].push_back(frame);
+    }
+
+    std::filesystem::path p(path);
+    if (p.has_parent_path()) {
+        std::filesystem::create_directories(p.parent_path());
     }
 
     std::ofstream file(path);

@@ -49,9 +49,13 @@ The Backend is the "Engine" that runs the sorting algorithms.
 
 1.  **Open Project:** Open the `cpp-core` folder in VS Code (`File > Open Folder...`).
 2.  **Configure:** You should see a notification asking "Configure project?". Click **Yes**.
-    *   *If asked to select a Kit:* Select **GCC** (or the version referencing MinGW).
 3.  **Build:** Look at the blue status bar at the bottom of VS Code. Click the **Build** (or Gear icon) button, or press `F7`.
-    *   *Alternative:* Open the terminal in VS Code and type `cmake --build .` inside the build directory.
+    *   *Alternative (Command Line):* Open the terminal in `cpp-core` and run:
+        ```powershell
+        cmake -S . -B build
+        cmake --build build
+        ```
+        *(Note: The first command configures the project and downloads dependencies. The second compiles it.)*
 
 ✅ **Success:** You should now have an executable file named `sortgen.exe` located in the `build/` or `build/Debug/` folder.
 
@@ -66,6 +70,7 @@ This tool works by "recording" an algorithm into a file. You must generate this 
     ```bash
     cd build
     ```
+    *Note: You can also run from the `cpp-core` root. If you specify an output path like `logs/data.json`, the tool will automatically create the `logs` folder for you.*
 3.  Run the generator command using the following syntax:
     ```bash
     ./sortgen --algorithm [name] --size [number] --output [filename.json]

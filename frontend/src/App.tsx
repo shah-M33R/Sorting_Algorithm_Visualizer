@@ -102,10 +102,15 @@ const App: React.FC = () => {
                         <h3 className="text-xl font-bold mb-4">Generate New Sorting Log</h3>
                         <div className="space-y-4">
                             <div className="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                                <p className="text-sm text-slate-600 mb-2">To generate a new dataset, run the following command in your terminal (cpp-core/build):</p>
-                                <code className="block bg-slate-800 text-white p-3 rounded text-xs overflow-x-auto font-mono mb-3">
-                                    ./sortgen --algorithm [type] --size [x] --output [filename].json
-                                </code>
+                                <p className="text-sm text-slate-600 mb-2">To generate a new dataset, run one of the following commands in your terminal (cpp-core/build):</p>
+                                <div className="space-y-2 mb-3">
+                                    <code className="block bg-slate-800 text-white p-3 rounded text-xs overflow-x-auto font-mono">
+                                        ./sortgen --algorithm [type] --size [N] --output [filename].json
+                                    </code>
+                                    <code className="block bg-slate-800 text-white p-3 rounded text-xs overflow-x-auto font-mono">
+                                        ./sortgen --algorithm [type] --array "[1, 5, 2, ...]" --output [filename].json
+                                    </code>
+                                </div>
                                 <div className="text-sm text-slate-700">
                                     <p className="font-semibold mb-1">Available Types:</p>
                                     <ul>
@@ -202,6 +207,14 @@ const App: React.FC = () => {
                                     <div className="flex justify-between">
                                         <span className="text-slate-500">Size</span>
                                         <span className="font-medium">{log?.metadata.input_size || '-'}</span>
+                                    </div>
+                                    <div className="flex justify-between mt-2 pt-2 border-t border-slate-100 text-xs text-slate-600">
+                                        <span>Time Complexity</span>
+                                        <span className="font-mono">{log?.metadata.time_complexity || 'N/A'}</span>
+                                    </div>
+                                    <div className="flex justify-between text-xs text-slate-600">
+                                        <span>Space Complexity</span>
+                                        <span className="font-mono">{log?.metadata.space_complexity || 'N/A'}</span>
                                     </div>
                                 </div>
                             </div>

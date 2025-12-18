@@ -30,6 +30,8 @@ int main(int argc, char* argv[]) {
     bool saveDataset = false;
     bool benchmark = false;
 
+    std::string arrayInput = "";
+
     for (int i = 1; i < argc; ++i) {
         std::string arg = argv[i];
         if (arg == "--algorithm" && i + 1 < argc) algorithm = argv[++i];
@@ -37,13 +39,31 @@ int main(int argc, char* argv[]) {
         else if (arg == "--output" && i + 1 < argc) outputFile = argv[++i];
         else if (arg == "--seed" && i + 1 < argc) seed = std::stoul(argv[++i]);
         else if (arg == "--from-file" && i + 1 < argc) inputFile = argv[++i];
+        else if (arg == "--array" && i + 1 < argc) arrayInput = argv[++i];
         else if (arg == "--save-dataset") saveDataset = true;
         else if (arg == "--benchmark") benchmark = true;
         else if (arg == "--help") { printUsage(); return 0; }
     }
 
     std::vector<int> arr;
-    if (!inputFile.empty()) {
+    if (!arrayInput.empty()) {
+        // Parse array input: e.g., "[1, 2, 3]" or "1,2,3"
+        std::string numStr;
+        for (char c : arrayInput) {
+            if (isdigit(c) || c == '-') {
+                numStr += c;
+            } else if (c == ',' || c == ']' || c == ' ') {
+                if (!numStr.empty()) {
+                    arr.push_back(std::stoi(numStr));
+                    numStr = "";
+                }
+            }
+        }
+        if (!numStr.empty()) {
+            arr.push_back(std::stoi(numStr));
+        }
+        size = arr.size(); // Override size with actual array size
+    } else if (!inputFile.empty()) {
         std::ifstream f(inputFile);
         if (f.is_open()) {
             json j;

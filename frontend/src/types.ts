@@ -32,6 +32,7 @@ export interface Metadata {
     total_swaps?: number; // Made optional
     initial_config?: string; // Added for client-side
     time_complexity?: string; // Added for client-side
+    space_complexity?: string; // Added for client-side
 }
 
 export interface Log {

@@ -1,0 +1,1275 @@
+{
+  "frames": [
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": null,
+      "operation": "none"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 1,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          0,
+          1
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 2,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 3,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 4,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          2,
+          4
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 5,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          2,
+          5
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 6,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 7,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          5,
+          7
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 8,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          5,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        67,
+        20,
+        7,
+        76,
+        74,
+        4,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 9,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          5,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 9,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          5,
+          0
+        ],
+        "swap": [
+          5,
+          0
+        ]
+      },
+      "operation": "swap"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 10,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          1,
+          2
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 11,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 12,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          2,
+          4
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 13,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          2,
+          5
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 14,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          2,
+          6
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 15,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          2,
+          7
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 16,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          2,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        20,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        6
+      ],
+      "cumulative_comparisons": 17,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "compare": [
+          2,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 17,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          9,
+          1
+        ],
+        "swap": [
+          9,
+          1
+        ]
+      },
+      "operation": "swap"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 18,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          3
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 19,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          4
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 20,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          5
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 21,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          6
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 22,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          7
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 23,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 24,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          2,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 25,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          3,
+          4
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 26,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 27,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 28,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          5,
+          7
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 29,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        76,
+        74,
+        67,
+        77,
+        48,
+        79,
+        20
+      ],
+      "cumulative_comparisons": 30,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "compare": [
+          7,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        74,
+        67,
+        77,
+        48,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 30,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          9,
+          3
+        ],
+        "swap": [
+          9,
+          3
+        ]
+      },
+      "operation": "swap"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        74,
+        67,
+        77,
+        48,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 31,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          4,
+          5
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        74,
+        67,
+        77,
+        48,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 32,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        74,
+        67,
+        77,
+        48,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 33,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          5,
+          7
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        74,
+        67,
+        77,
+        48,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 34,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        74,
+        67,
+        77,
+        48,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 35,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "compare": [
+          7,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 35,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          7,
+          4
+        ],
+        "swap": [
+          7,
+          4
+        ]
+      },
+      "operation": "swap"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 36,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          5,
+          6
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 37,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          5,
+          7
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 38,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          5,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 39,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          5,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 40,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          6,
+          7
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 41,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        77,
+        74,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 42,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "compare": [
+          7,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        74,
+        77,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 42,
+      "cumulative_swaps": 5,
+      "highlights": {
+        "compare": [
+          7,
+          6
+        ],
+        "swap": [
+          7,
+          6
+        ]
+      },
+      "operation": "swap"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        74,
+        77,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 43,
+      "cumulative_swaps": 5,
+      "highlights": {
+        "compare": [
+          7,
+          8
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        74,
+        77,
+        79,
+        76
+      ],
+      "cumulative_comparisons": 44,
+      "cumulative_swaps": 5,
+      "highlights": {
+        "compare": [
+          7,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        74,
+        76,
+        79,
+        77
+      ],
+      "cumulative_comparisons": 44,
+      "cumulative_swaps": 6,
+      "highlights": {
+        "compare": [
+          9,
+          7
+        ],
+        "swap": [
+          9,
+          7
+        ]
+      },
+      "operation": "swap"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        74,
+        76,
+        79,
+        77
+      ],
+      "cumulative_comparisons": 45,
+      "cumulative_swaps": 6,
+      "highlights": {
+        "compare": [
+          8,
+          9
+        ]
+      },
+      "operation": "compare"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        74,
+        76,
+        77,
+        79
+      ],
+      "cumulative_comparisons": 45,
+      "cumulative_swaps": 7,
+      "highlights": {
+        "compare": [
+          9,
+          8
+        ],
+        "swap": [
+          9,
+          8
+        ]
+      },
+      "operation": "swap"
+    },
+    {
+      "array": [
+        4,
+        6,
+        7,
+        20,
+        48,
+        67,
+        74,
+        76,
+        77,
+        79
+      ],
+      "cumulative_comparisons": 45,
+      "cumulative_swaps": 7,
+      "highlights": null,
+      "operation": "none"
+    }
+  ],
+  "metadata": {
+    "algorithm": "selection",
+    "input_size": 10,
+    "seed": 1595515738,
+    "space_complexity": "O(1)",
+    "start_time": "2025-12-09T22:00:00Z",
+    "time_complexity": "O(N^2)",
+    "total_comparisons": 45,
+    "total_swaps": 7,
+    "total_time_ms": 3
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "frames": [
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          0
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          1
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          2
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          3
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          4
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          5
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          6
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          7
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          8
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        72,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "compare": [
+          9
+        ]
+      },
+      "operation": "to_bucket"
+    },
+    {
+      "array": [
+        2,
+        2,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 0,
+      "highlights": {
+        "swap": [
+          0
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        35,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 1,
+      "highlights": {
+        "swap": [
+          1
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        91,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 2,
+      "highlights": {
+        "swap": [
+          2
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        98,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 3,
+      "highlights": {
+        "swap": [
+          3
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        77,
+        87,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 4,
+      "highlights": {
+        "swap": [
+          4
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        77,
+        82,
+        82,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 5,
+      "highlights": {
+        "swap": [
+          5
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        77,
+        82,
+        87,
+        77,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 6,
+      "highlights": {
+        "swap": [
+          6
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        77,
+        82,
+        87,
+        91,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 7,
+      "highlights": {
+        "swap": [
+          7
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        77,
+        82,
+        87,
+        91,
+        96,
+        50
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 8,
+      "highlights": {
+        "swap": [
+          8
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        77,
+        82,
+        87,
+        91,
+        96,
+        98
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 9,
+      "highlights": {
+        "swap": [
+          9
+        ]
+      },
+      "operation": "overwrite"
+    },
+    {
+      "array": [
+        2,
+        35,
+        50,
+        72,
+        77,
+        82,
+        87,
+        91,
+        96,
+        98
+      ],
+      "cumulative_comparisons": 0,
+      "cumulative_swaps": 10,
+      "highlights": null,
+      "operation": "sorted"
+    }
+  ],
+  "metadata": {
+    "algorithm": "bucket",
+    "input_size": 10,
+    "seed": 816830104,
+    "space_complexity": "O(N+K)",
+    "start_time": "2025-12-09T22:00:00Z",
+    "time_complexity": "O(NK)",
+    "total_comparisons": 0,
+    "total_swaps": 10,
+    "total_time_ms": 1
+  }
+}
